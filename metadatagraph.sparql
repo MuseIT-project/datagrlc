@@ -7,7 +7,7 @@ PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX bd: <http://www.bigdata.com/rdf#>
 
 
-SELECT ?localItem ?localItemLabel ?wikidataItem WHERE {
-  ?localItem ?localProperty ?wikidataItem .
+SELECT ?item ?Property ?wikidataItem WHERE {
+  ?item ?Property ?wikidataItem .
 }
 
